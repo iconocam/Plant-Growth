@@ -75,3 +75,4 @@ try {
 } catch (error) {
 	console.log(error);
 }
+// i dont think my commmits were working :(
