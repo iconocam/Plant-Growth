@@ -46,3 +46,16 @@ let week = 1;
 }
 
 /**  currentPlants *=2;  doubles the plants for the week /** */
+
+// increment the week by 1
+week++;
+
+
+if (currentPlants > maxPlants) {
+    console.log(`The maximum limit of ${maxPlants} has been reached`);
+} else {
+    console.log(`The area limit of 78.5 square meters has been exceeded`);
+}
+
+console.log(`if else statement that will indicate whether max area has been exceeded or
+plant limit has been reached`);
