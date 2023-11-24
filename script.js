@@ -38,3 +38,8 @@ let currentPlants = initialPlants;
 let currentArea = initialPlants * spacePerPlant;
 
 let week = 1;
+
+while (currentArea <= areaLimit && currentPlants <= maxPlants) {
+    console.log(`Week ${week}: ${currentPlants} plants, Area ${currentArea} square meters`
+}
+
