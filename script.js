@@ -39,7 +39,10 @@ let currentArea = initialPlants * spacePerPlant;
 
 let week = 1;
 
-while (currentArea <= areaLimit && currentPlants <= maxPlants) {
-    console.log(`Week ${week}: ${currentPlants} plants, Area ${currentArea} square meters`
+// creates an infinite loop, DANGER!! page wouldnt load lol
+
+/**while (currentArea <= areaLimit && currentPlants <= maxPlants) {
+    console.log(`Week ${week}: ${currentPlants} plants, Area ${currentArea} square meters`);
 }
 
+/**  currentPlants *=2;  doubles the plants for the week /** */
