@@ -15,15 +15,26 @@ console.log(`approx 98 plants fit, starting with 20 they double every week`)
 
 console.log(`if we have 20 plants doubling each week,with one plant finishing within 12 weeks, by the time we get to the 5th week we would have 100 plants overflowing our garden`)
 
-let x = 98;
-let p = 20 * 2
 
-let count = 1;
+
 
 
 /** While Loop
+ *  let count =1; 
  * 
  *  while (count <= 5) {
     console.log(count);
     count++; }   
  */
+
+
+const initialPlants = 20;
+const areaLimit = 78.5;  
+const spacePerPlant = 0.8;  
+const maxPlants = 98;
+
+let currentPlants = initialPlants;
+
+let currentArea = initialPlants * spacePerPlant;
+
+let week = 1;
