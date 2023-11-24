@@ -59,3 +59,19 @@ if (currentPlants > maxPlants) {
 
 console.log(`if else statement that will indicate whether max area has been exceeded or
 plant limit has been reached`);
+
+
+
+
+// try and catch example
+let x = 10;
+
+try {
+	if (maxPlants <= currentPlants) {
+		console.log("Space limit has been exceeded");
+	} else {
+		throw "Error - I don't know what I'm doing.";
+	}
+} catch (error) {
+	console.log(error);
+}
